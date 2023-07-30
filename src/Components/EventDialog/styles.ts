@@ -5,22 +5,6 @@ export const useStyles = makeStyles(theme =>
     root: {
       height: '100%',
     },
-    project: {
-      backgroundColor: 'lightblue',
-      height: '100%',
-    },
-    right: {
-      height: '100%',
-    },
-    media: {
-      backgroundColor: 'lightgreen',
-      height: '70%',
-      width: '50%',
-    },
-    desc: {
-      backgroundColor: 'yellow',
-      height: '30%',
-    },
     divider: {
       backgroundColor: '#686868',
       margin: '14px 20px 10px 20px',
@@ -65,9 +49,6 @@ export const useStyles = makeStyles(theme =>
       '&.css-1f064cs-MuiGrid-root': {
         marginTop: '10px',
       },
-    },
-    typography: {
-      fontWeight: 600,
     },
     rootDialog: {
       '& .MuiDialog-paper': {

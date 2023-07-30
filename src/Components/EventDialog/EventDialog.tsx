@@ -108,7 +108,7 @@ const EventDialog: React.FC<TaskDialogProps> = ({ open, event, onClose }) => {
 
               <Grid item container direction='row' style={{ marginTop: 50, marginLeft: 20 }}>
                 <Grid item xs={12}>
-                  <Typography className={classes.typography}>
+                  <Typography>
                     <b>Location</b>
                   </Typography>
                 </Grid>
