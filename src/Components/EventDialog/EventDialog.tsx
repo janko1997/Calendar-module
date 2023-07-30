@@ -59,6 +59,7 @@ const EventDialog: React.FC<TaskDialogProps> = ({ open, event, onClose }) => {
                 </Typography>
               </Grid>
               <Grid item xs={12} style={{ marginLeft: 20 }}>
+                {/* component that will be able to identify htmlContent */}
                 <DynamicHTMLComponent htmlContent={event.Description} />
               </Grid>
             </Grid>
